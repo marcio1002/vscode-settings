@@ -85,33 +85,6 @@
     "*.proto": "3d"
   },
 
-  "cSpell.userWords": [
-    "alladin",
-    "astrobot",
-    "atacarejos",
-    "autoload",
-    "bdecomais",
-    "cript",
-    "cript passwd",
-    "datadriver",
-    "ecomais",
-    "endforeach",
-    "exem",
-    "ffmpeg",
-    "genora",
-    "laravel",
-    "marcio",
-    "ondisco",
-    "passwd",
-    "pgsql",
-    "popen",
-    "postgres",
-    "rayotec",
-    "sgbd",
-    "tamires",
-    "youtube"
-  ],
-
   "cSpell.language": "en,pt,pt-BR,en-US",
 
   "sqltools.dependencyManager": {
