@@ -1,4 +1,4 @@
-{
+```json 
   "window.zoomLevel": 0,
   
   "terminal.integrated.fontSize": 14,
@@ -7,8 +7,9 @@
   
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
   "workbench.colorTheme": "Gotham",
-
+  
   "editor.tabSize": 2,
   "editor.fontSize": 17,
   "editor.lineHeight": 25,
@@ -22,6 +23,7 @@
   "editor.autoIndent": "brackets",
   "editor.cursorStyle": "line",
   "editor.suggest.showIcons": true,
+  "editor.renderLineHighlight":** "gutter",
   "editor.acceptSuggestionOnCommitCharacter": true, 
   "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
 
@@ -30,7 +32,7 @@
   "powermode.enabled": true,
   "powermode.presets": "flames",
 
-  "files.exclude": {
+  **"files.exclude":** {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -39,27 +41,25 @@
     "node_modules": true,
     "componente": true
   },
-
-  "explorer.compactFolders": false,
-  "editor.renderLineHighlight": "gutter",
-  "workbench.editor.labelFormat": "short",
+  
+  
+  "breadcrumbs.enabled": true,
   "extensions.ignoreRecommendations": true,
 
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "typescript.tsserver.log": "verbose",
-  "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
 
   "php.validate.enable": true,
   "php.validate.executablePath": "/usr/bin/php",
   "php.suggest.basic": true,
 
-  "breadcrumbs.enabled": true,
   "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
 
-  
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
@@ -79,10 +79,8 @@
     "fakes": "mock",
     "websockets": "pipe",
     "protos": "pipe",
-    "grpc": "pipe"
-  },
-  "material-icon-theme.files.associations": {
-    "ormconfig.json": "database",
+    "grpc": "pipe",
+     "ormconfig.json": "database",
     "tsconfig.json": "tune",
     "*.proto": "3d"
   },
@@ -126,28 +124,4 @@
     "autoAccept": false
   },
 
-  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
-
-  "VSCord.workspaceElapsedTime": true,
-  "VSCord.detailsEditing": "Editando: {filename}",
-  "VSCord.lowerDetailsEditing": "Em: 📂 {workspace}",
-  "VSCord.detailsViewing": "Editando: {filename}",
-  "VSCord.lowerDetailsViewing": "Em: 📂 {workspace}",
-  "VSCord.detailsDebugging": "Depurando: 🧪 {filename}",
-  "VSCord.lowerDetailsDebugging": "Em: 📂 {workspace}",
-  "VSCord.largeImage": "{LANG}",
-  "VSCord.detailsIdle": "Nenhuma atividade",
-  "VSCord.lowerDetailsIdle": "Em: ⏳",
-  "VSCord.largeImageIdle": "Ausente",
-  "VSCord.idleText": "Ausente",
-  "VSCord.idleTimeout": 300,
-  "RPC.debuggingText": "Depurando: 🧪 {file}",
-  "RPC.editingText": "Editando: {file}",
-  "RPC.fileInfoText": "{language}",
-  "RPC.idleText": "Editando: ⏳",
-  "RPC.problemsText": "",
-  "RPC.workspaceText": "Em: 📂 {workspace}",
-  "RPC.viewingText": "Editando: {file}",
-  "RPC.idleTimeout": 200,
-  "RPC.disconnectOnIdle": true
-}
+```
